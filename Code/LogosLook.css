@@ -1,3 +1,7 @@
+body{
+	background-color: black;
+}
+
 #boxes{
 	border-style: solid;
 	text-align: center;
@@ -6,7 +10,20 @@
 	font-size: 60pt;
 }
 
-#aftershok{
-	font-family: After_Shok;
+#boardlinks{
+	font-size: 20pt;
+}
+
+#name{
+	font-size: 80pt;
 	text-align: center;
+	color: #00FF00;
+}
+
+#green{
+	color: #00FF00;
+}
+
+#yellow{
+	color: #CCCC00;
 }

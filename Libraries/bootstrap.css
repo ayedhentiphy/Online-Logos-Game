@@ -337,7 +337,7 @@ a:focus {
 }
 
 .span1 {
-  width: 60px;
+  width: 60px; 
 }
 
 .offset12 {
@@ -378,7 +378,7 @@ a:focus {
 
 .offset3 {
   margin-left: 260px;
-}
+ }
 
 .offset2 {
   margin-left: 180px;
