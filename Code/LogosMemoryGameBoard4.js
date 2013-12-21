@@ -221,9 +221,10 @@ $(document).ready(function(){
 			$("[id^='pic20']").attr('src', '../Pictures/Logos/Unicef.JPG'); 
 		}
 		else{
-			pic19count++;
+			pic20count++;
 			$("[id^='pic20']").attr('src', '../Pictures/Blocks/Block20.JPG'); 
 		}
 	});
+	
 	
 });

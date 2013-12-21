@@ -19,16 +19,12 @@ $(document).ready(function(){
 	$("#picAA").click(function(){
 		if(picAAcount % 2 == 1){
 			picAAcount++;
-			$("[id^='picAA']").attr('src', '../Pictures/Logos/Marlboro.JPG');
-			//The entire setTimeout function works well without the "else" statement
-			setTimeout(function() {
-					$("[id^='picAA']").attr('src', '../Pictures/Blocks/Block1.JPG')
-				} , 5000);
+			$("[id^='picAA']").attr('src', '../Pictures/Logos/Marlboro.JPG')
 		}
-		/*else{
+		else{
 			picAAcount++;
 			$("[id^='picAA']").attr('src', '../Pictures/Blocks/Block1.JPG');
-		}*/
+		}
 	});
 	
 	$("#picBB").click(function(){
